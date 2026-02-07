@@ -1,6 +1,3 @@
-# blog_summary_agent_graph
-A stateful AI agent system built with LangGraph that refactors a sequential Planner–Reviewer pipeline into a dynamically routed graph using shared state and supervisor logic.
-
 # Blog Summary Stateful Agent Graph
 
 This project demonstrates how to refactor a sequential AI agent pipeline into a **stateful, dynamically routed agent graph** using the LangGraph library. The system implements the **supervisor pattern**, allowing agents to share memory, make decisions based on state, and loop for self-correction.
