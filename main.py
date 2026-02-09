@@ -10,10 +10,14 @@ It explores themes of friendship, identity, and how history is shaped by those i
 """
     }
 
-    final_state = app.invoke(initial_state)
+    #final_state = app.invoke(initial_state)
 
-    print("\nFINAL STATE:\n")
-    print(final_state)
+    #print("\nFINAL STATE:\n")
+    #print(final_state)
+
+    for step in app.stream(initial_state):
+        print(step)
+
 
 if __name__ == "__main__":
     main()

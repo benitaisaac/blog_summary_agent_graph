@@ -97,6 +97,8 @@ Tags:
         reviewer_message,
     ]
 )
+    reviewer_output = "ISSUE"
     return {
         "reviewer_output": reviewer_response["message"]["content"]
+        #"reviewer_output": reviewer_output
     }
